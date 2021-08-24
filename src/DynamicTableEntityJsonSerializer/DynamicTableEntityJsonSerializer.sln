@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTableEntityJsonSerializer", "DynamicTableEntityJsonSerializer\DynamicTableEntityJsonSerializer.csproj", "{AFB8DBE1-9E75-46EE-843C-786AA0B2B641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTableEntityJsonSerializerXUnitTest", "DynamicTableEntityJsonSerializerXUnitTest\DynamicTableEntityJsonSerializerXUnitTest.csproj", "{30A6BDA4-F26A-4779-A450-5D2E7916D96D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFB8DBE1-9E75-46EE-843C-786AA0B2B641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB8DBE1-9E75-46EE-843C-786AA0B2B641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB8DBE1-9E75-46EE-843C-786AA0B2B641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB8DBE1-9E75-46EE-843C-786AA0B2B641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A6BDA4-F26A-4779-A450-5D2E7916D96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A6BDA4-F26A-4779-A450-5D2E7916D96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A6BDA4-F26A-4779-A450-5D2E7916D96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A6BDA4-F26A-4779-A450-5D2E7916D96D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87A68687-39AA-415A-A4EF-1A0F4884BB28}
+	EndGlobalSection
+EndGlobal

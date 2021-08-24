@@ -1,0 +1,15 @@
+.gitignore.bak
+README.md.bak
+LICENSE.bak
+.vs
+src/.axoCover
+src/.vs
+src/DynamicTableEntityJsonSerializer/bin
+src/DynamicTableEntityJsonSerializer/obj
+src/DynamicTableEntityJsonSerializer/DynamicTableEntityJsonSerializer.nuspec.bak
+src/DynamicTableEntityJsonSerializer/NuGetCommandLine.txt
+src/DynamicTableEntityJsonSerializer/NuGetCommandLine.txt.bak
+src/DynamicTableEntityJsonSerializerXUnitTest/bin
+src/DynamicTableEntityJsonSerializerXUnitTest/obj
+src/TestResults
+

@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>TheByteStuff.DynamicTableEntityJsonSerializer</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>Based on the nuget package offered by DoguArslan (https://www.nuget.org/packages/DynamicTableEntityJsonSerializer) which uses Microsoft.WindowsAzure.Storage.Table and .Net Framework 4.5, this package is adapted from the original work to function using Microsoft.Azure.Cosmos.Table to enable working with the Microsoft Azure CosmosDB Table API as well as the Azure Table Storage API and a broader .NetStandard 2.0.
+
+The ReadJson method logic for ETag also deviates from the original code in that a true null value will be returned if the serialized data indicates null.  The original package sets ETag to empty string when the input value is null.
+
+In addition, the original converter logic for parsing the Timestamp loses the Offset and just returns the date and time.   Added a hack to include the offset in the Timestamp.</Description>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageTags>Azure,Table,CosmosDB,Azure Table Storage,DynamicTableEntity,Json,Serializer</PackageTags>
+    <Copyright>2021</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/TheByteStuff/DynamicTableEntityJsonSerializer</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/TheByteStuff/DynamicTableEntityJsonSerializer/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/TheByteStuff/DynamicTableEntityJsonSerializer/blob/master/src/DynamicTableEntityJsonSerializer/CardFront_Clip.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/TheByteStuff/DynamicTableEntityJsonSerializer</PackageProjectUrl>
+    <PackageId>TheByteStuff.DynamicTableEntityJsonSerializer</PackageId>
+    <Authors>The Byte Stuff, LLC</Authors>
+    <Company>The Byte Stuff, LLC</Company>
+    <Product>DynamicTableEntityJsonSerializer</Product>
+    <AssemblyName>TheByteStuff.DynamicTableEntityJsonSerializer</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos.Table" Version="1.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="CardFront_Clip.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CardFront_Clip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
